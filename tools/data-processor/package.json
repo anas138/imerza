@@ -1,0 +1,14 @@
+{
+  "name": "data-processor",
+  "version": "0.0.1",
+  "type": "module",
+  "dependencies": {
+    "mongoose": "^6.3.3",
+    "argon2": "^0.28.5",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.1.3"
+  },
+  "devDependencies": {
+    "@imerza/types": "workspace:types"
+  }
+}

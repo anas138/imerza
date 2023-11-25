@@ -1,0 +1,24 @@
+{
+  "name": "imerza",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "docker": "turbo run docker",
+    "coverage": "turbo run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "glob": "^8.0.1",
+    "jest": "28.0.3",
+    "nyc": "^15.1.0",
+    "pkg": "^5.6.0",
+    "turbo": "^1.2.8",
+    "typescript": "^4.6.4"
+  },
+  "packageManager": "pnpm@7.0.0"
+}

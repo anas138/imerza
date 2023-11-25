@@ -1,0 +1,7 @@
+{
+    "baseUrl":"http://localhost:3000/",
+    "baseUrl2":"http://localhost:3001/",
+    "prodUrl":"http://161.35.249.228/",
+    "generatedUrl":"https://shots.imerza.com/Upload/getimages.php"
+
+}

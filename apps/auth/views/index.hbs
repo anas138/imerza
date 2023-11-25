@@ -1,0 +1,54 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Imerza :: Login</title>
+  <link rel='stylesheet' href='styles.css' />
+</head>
+<body>
+<div id='login'>
+  <div class='info'>
+    <div>
+      <img src='imerza-logo-reversed.png' alt='logo' class='logo' />
+    </div>
+    <div class='flex col grow justify-center items-center'>
+      <div class='flex col'>
+        <span class='heading'>
+          Welcome
+        </span>
+        <span class='secondary'>
+          Sign in to continue to CMS
+        </span>
+      </div>
+    </div>
+    <div>
+      <span>
+        &copy; Imerza, LLC
+      </span>
+    </div>
+  </div>
+  <div class='signin'>
+    <div class='flex col grow'>
+      <div class='flex col'>
+        <span class='heading'>Sign In</span>
+        <form autocomplete='off' method='post' id='login-form'>
+          <div class='field'>
+            <input class='' type='text' placeholder='Username' autocomplete='off' name='username' id='username' />
+          </div>
+          <div class='field'>
+            <input class='' type='password' placeholder='Password' autocomplete='off' name='password' id='password' />
+            <div class='error'>Password is incorrect</div>
+          </div>
+          <div class='field'>
+            <button type='submit' class='button'>Sign In</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script src='index.js'></script>
+</body>
+</html>

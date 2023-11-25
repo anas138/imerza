@@ -1,0 +1,168 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    margin: 0;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #296cd8;
+
+    /*background-image: url("https://imerza.imgix.net/projects/la-clara/LaClara_Ext_01.jpg?auto=format%2Ccompress&fit=clip&fp-x=0.5&fp-y=0.5&ratio=&w=2700");*/
+    /*background-blend-mode: multiply;*/
+    /*background-position: center;*/
+
+    /*backdrop-filter: brightness(0.5);*/
+}
+
+form {
+    margin: 0;
+}
+
+#login {
+    width: 40rem;
+    height: 30rem;
+    display: flex;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: rgba(56, 59, 62, 0.2) 0 0 4px;
+    color: white;
+}
+
+.info {
+    background: linear-gradient(to bottom right, rgb(41, 169, 216), rgb(61, 41, 216));
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/*region Info Helpers */
+.logo {
+    height: 30px;
+    width: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.secondary {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.center {
+    text-align: center;
+}
+
+/*endregion */
+
+.signin {
+    color: black;
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.signin .heading {
+    margin: 1rem 0 2rem 0;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0/0.1),0 2px 4px -2px rgb(0 0 0/0.1);
+}
+
+input {
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    /*background-color: rgba(158, 158, 165, 0.2);*/
+    border: solid 2px #e9e9e9;
+    outline: 0;
+    width: 100%;
+
+    font-size: 16px;
+    transition: border 100ms ease;
+}
+
+input:focus {
+    border: solid 2px #296cd8;
+}
+
+input:invalid {
+    border: solid 2px #ff082c;
+}
+
+.error {
+    display: none;
+    color: #ff082c;
+}
+
+form:invalid .error {
+    display: block;
+}
+
+input::placeholder {
+    color: #b2afaf;
+}
+
+input:-webkit-autofill::first-line {
+    font-size: 16px
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    /*-webkit-box-shadow: 0 0 0px 1000px white inset;*/
+    font-size: 16px;
+}
+
+.field {
+    margin-bottom: 1rem;
+}
+
+.button {
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    text-align: center;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    width: 100%;
+    background-color: #3652d2;
+    transition: all 100ms ease;
+    outline: 0;
+}
+
+.button:hover,.button:focus {
+    background-color: #508ed4;
+    color: rgb(255, 255, 255);
+}
+.button:active {
+    background-color: rgb(61, 41, 216);
+    color: rgba(255, 255, 255, 0.6);
+}

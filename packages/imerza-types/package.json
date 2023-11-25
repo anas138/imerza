@@ -1,0 +1,10 @@
+{
+  "name": "@imerza/types",
+  "version": "1.0.0",
+  "description": "Collection of type definitions and schemas for Imerza Products",
+  "main": "",
+  "types": "index.d.ts",
+  "devDependencies": {
+    "mongoose": "^6.3.4"
+  }
+}

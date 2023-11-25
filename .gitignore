@@ -1,0 +1,12 @@
+node_modules
+.pnp.cjs
+.turbo
+.next
+.env
+coverage
+.nyc_output
+cypress/videos
+cypress/screenshots
+
+apps/**/cypress/videos
+apps/**/cypress/screenshots
